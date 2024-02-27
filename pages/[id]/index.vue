@@ -15,6 +15,6 @@ const routeId = computed(() => route.params.id);
 const { data } = useNuxtData(`test_${routeId.value}`);
 
 function goTo(id: number) {
-  router.replace({ path: `/${id}`, query: route.query, hash: route.hash });
+  router.replace(`/${id}`);
 }
 </script>
