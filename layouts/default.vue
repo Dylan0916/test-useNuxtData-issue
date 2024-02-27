@@ -14,5 +14,3 @@ await useAsyncData(
   { watch: [routeId] }
 );
 </script>
-
-<style lang="scss" scoped></style>
